@@ -1,3 +1,157 @@
+// Google Fonts
+@import url('http://fonts.proxy.ustclug.org/css2?family=DM+Sans&display=swap');
+@import url('https://cdn.staticfile.org/lxgw-wenkai-webfont/1.6.0/lxgwwenkai-light.css');
+@import url('http://fonts.proxy.ustclug.org/css2?family=DM+Sans:ital@1&display=swap');
+@import url('http://fonts.proxy.ustclug.org/css2?family=DM+Serif+Display&display=swap');
+@import url('http://fonts.proxy.ustclug.org/css2?family=Yrsa:wght@300&display=swap');
+@import url('http://fonts.proxy.ustclug.org/css2?family=Yrsa:ital,wght@1,300&display=swap');
+@import url('http://fonts.proxy.ustclug.org/css2?family=Yrsa:wght@600&display=swap');
+@import url('http://fonts.proxy.ustclug.org/css2?family=IBM+Plex+Mono&display=swap');
+@import url('http://fonts.proxy.ustclug.org/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+
+// Text styling
+body, h1, h2, h3, h4, h5 {
+    font-family: 'LXGW WenKai', sans-serif;
+}
+h1 {
+    font-size: 26px;
+}
+.cooked h1, .d-editor-preview h1 {
+    font-size: 26px;
+}
+h2 {
+    font-size: var(--font-up-3-rem);
+}
+.cooked h2, .d-editor-preview h2 {
+    font-size: var(--font-up-3-rem);
+}
+h3 {
+    font-size: var(--font-up-2-rem);
+}
+.cooked h3, .d-editor-preview h3 {
+    font-size: var(--font-up-2-rem);
+}
+h4 {
+    font-size: var(--font-up-1-rem);
+}
+.cooked h4, .d-editor-preview h4 {
+    font-size: var(--font-up-1-rem);
+}
+p {
+    font-size: 22px;
+    font-family: 'Yrsa', serif;
+    line-height: 1.4;
+    margin: 20px 0;
+}
+b, strong {
+    font-weight: bold;
+}
+.cooked big, .d-editor-preview big {
+    font-size: 1em;
+}
+span.text {
+    font-size: 13px;
+}
+.alert.alert-info span.text {
+    font-size: 15px;
+}
+a.fancy-title {
+    font-size: 28px;
+}
+.names span a {
+    font-size: 16px;
+    font-weight: normal;
+    color: #858585;
+    font-weight: bold;
+}
+.select-kit.dropdown-select-box {
+    font-size: 15px;
+}
+.topic-body .cooked {
+    padding: 30px 11px 20px 11px;
+}
+#topic-title .title-wrapper {
+    padding: 60px 0 20px 0;
+    width: 90%;
+}
+.topic-category {
+    padding: 10px 0 0 0;
+}
+.category-breadcrumb {
+    font-family: 'LXGW WenKai', sans-serif;
+    font-size: 16px;
+}
+.select-kit .select-kit-row.is-highlighted {
+    background: var(--secondary);
+}
+.select-kit .select-kit-row.is-selected {
+    background: var(--secondary);
+}
+.select-kit .select-kit-row.is-selected.is-highlighted {
+    background: var(--secondary);
+}
+.small-action-desc p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'LXGW WenKai', sans-serif;
+    font-size: 14px;
+}
+.cooked a {
+    border-bottom: 1px solid #ccc;
+}
+.cooked a:hover {
+    border-bottom: 1px solid #d16528;
+}
+a.mention {
+    border-bottom: none;
+    font-weight: normal;
+    font-size: 0.8em;
+    color: var(--tertiary);
+    font-family: 'LXGW WenKai', sans-serif;
+    padding: 0 6px 2px;
+}
+a.mention:hover {
+    border-bottom: none;
+    color: var(--primary);
+}
+.badge-notification.clicks {
+    top: -3px;
+}
+.badge-notification {
+    padding: 0.15em 0.3em;
+}
+blockquote {
+    background-color: #fbfbfb;
+    padding: 28px 38px;
+    border-left: none;
+    font-style: italic;
+    color: #646464;
+    margin: 0 0 30px;
+}
+.cooked ul, .d-editor-preview ul {
+    font-size: 22px;
+    font-family: 'Yrsa', serif;
+}
+ol {
+    font-size: 22px;
+    font-family: 'Yrsa', serif;
+}
+kbd {
+    font-size: 17px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+p>code, li>code, pre>code {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.7;
+}
+.topic-list-item:hover {
+    background: var(--primary-low);
+    transition: all 0.25s;
+}
+
 // Big thanks to jsthon for the initial work on this https://meta.discourse.org/u/jsthon/
 
 @mixin box-shadow($value: 8px) {
