@@ -238,6 +238,7 @@ nav.post-controls {
     top: calc(var(--header-offset) + 30px);
     height: calc(100vh - (var(--header-offset) + 60px));
     @include box-shadow;
+    font-family: 'LXGW Neo ZhiSong CHS', sans-serif;
   }
   .sidebar-footer-wrapper {
     background: var(--secondary);
