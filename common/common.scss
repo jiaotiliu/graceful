@@ -1,18 +1,11 @@
-// Google Fonts
-@import url('http://fonts.proxy.ustclug.org/css2?family=DM+Sans&display=swap');
+// 导入字体
 @import url('https://cdn.staticfile.org/lxgw-wenkai-webfont/1.6.0/lxgwwenkai-light.css');
-@import url('http://fonts.proxy.ustclug.org/css2?family=DM+Sans:ital@1&display=swap');
-@import url('http://fonts.proxy.ustclug.org/css2?family=DM+Serif+Display&display=swap');
-@import url('http://fonts.proxy.ustclug.org/css2?family=Yrsa:wght@300&display=swap');
-@import url('http://fonts.proxy.ustclug.org/css2?family=Yrsa:ital,wght@1,300&display=swap');
-@import url('http://fonts.proxy.ustclug.org/css2?family=Yrsa:wght@600&display=swap');
-@import url('http://fonts.proxy.ustclug.org/css2?family=IBM+Plex+Mono&display=swap');
-@import url('http://fonts.proxy.ustclug.org/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-neo-zhi-song-chs-regular-lxgw-neo-zhi-song/font.css');
 
 
-// Text styling
+// 文本样式
 body, h1, h2, h3, h4, h5 {
-    font-family: 'LXGW WenKai', sans-serif;
+    font-family: 'LXGW Neo ZhiSong CHS', sans-serif;
 }
 h1 {
     font-size: 26px;
@@ -40,7 +33,7 @@ h4 {
 }
 p {
     font-size: 22px;
-    font-family: 'Yrsa', serif;
+    font-family: 'LXGW Neo ZhiSong CHS', serif;
     line-height: 1.4;
     margin: 20px 0;
 }
@@ -94,7 +87,7 @@ a.fancy-title {
 .small-action-desc p {
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'LXGW WenKai', sans-serif;
+    font-family: 'LXGW Neo ZhiSong CHS', sans-serif;
     font-size: 14px;
 }
 .cooked a {
@@ -108,7 +101,7 @@ a.mention {
     font-weight: normal;
     font-size: 0.8em;
     color: var(--tertiary);
-    font-family: 'LXGW WenKai', sans-serif;
+    font-family: 'LXGW Neo ZhiSong CHS', sans-serif;
     padding: 0 6px 2px;
 }
 a.mention:hover {
@@ -131,11 +124,11 @@ blockquote {
 }
 .cooked ul, .d-editor-preview ul {
     font-size: 22px;
-    font-family: 'LXGW WenKai', serif;
+    font-family: 'LXGW Neo ZhiSong CHS', serif;
 }
 ol {
     font-size: 22px;
-    font-family: 'LXGW WenKai', serif;
+    font-family: 'LXGW Neo ZhiSong CHS', serif;
 }
 kbd {
     font-size: 17px;
