@@ -127,7 +127,7 @@ blockquote {
     font-family: 'LXGW WenKai', serif;
 }
 ol {
-    font-size: 22px;
+    font-size: 19px;
     font-family: 'LXGW Neo ZhiSong CHS', serif;
 }
 kbd {
@@ -145,7 +145,7 @@ p>code, li>code, pre>code {
     transition: all 0.25s;
 }
 
-// Big thanks to jsthon for the initial work on this https://meta.discourse.org/u/jsthon/
+// 非常感谢jsthon在这方面的初步工作https://meta.discourse.org/u/jsthon/
 
 @mixin box-shadow($value: 8px) {
   box-shadow: 0 1px $value rgba(black, 0.18);
@@ -326,7 +326,7 @@ header.d-header {
   background-color: var(--danger-hover, $danger-hover);
 }
 
-// Main category nav
+// 主要类别导航
 
 .list-controls .combo-box .combo-box-header {
   background: transparent;
@@ -357,7 +357,7 @@ header.d-header {
   border-radius: 4px;
 }
 
-// Horizontal topic timeline
+// 横向主题时间线
 
 #topic-progress-wrapper {
   right: 10vw !important;
@@ -379,7 +379,7 @@ header.d-header {
   }
 }
 
-// User pages
+// 用户页
 
 .user-preferences .bio-composer .d-editor-preview,
 .group-form-bio .d-editor-preview,
